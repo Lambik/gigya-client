@@ -16,8 +16,8 @@ namespace Graze\Gigya\Response;
 use DateTimeImmutable;
 use DateTimeInterface;
 use Graze\Gigya\Gigya;
-use Illuminate\Support\Collection;
 use Psr\Http\Message\ResponseInterface as GuzzleResponseInterface;
+use Tightenco\Collect\Support\Collection;
 
 class Response implements ResponseInterface
 {

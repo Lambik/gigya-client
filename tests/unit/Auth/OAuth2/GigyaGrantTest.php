@@ -21,7 +21,7 @@ use Graze\Gigya\Gigya;
 use Graze\Gigya\Response\ErrorCode;
 use Graze\Gigya\Response\ResponseInterface;
 use Graze\Gigya\Test\TestCase;
-use Illuminate\Support\Collection;
+use Tightenco\Collect\Support\Collection;
 use Mockery as m;
 
 class GigyaGrantTest extends TestCase

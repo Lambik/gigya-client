@@ -18,7 +18,7 @@ use Graze\Gigya\Test\TestCase;
 use Graze\Gigya\Validation\ResponseValidatorInterface;
 use Graze\Gigya\Validation\Signature;
 use Graze\Gigya\Validation\UidSignatureValidator;
-use Illuminate\Support\Collection;
+use Tightenco\Collect\Support\Collection;
 use Mockery as m;
 
 class UidSignatureValidatorTest extends TestCase
